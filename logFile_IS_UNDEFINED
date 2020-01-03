@@ -1,0 +1,26 @@
+2019-12-24 11:16:05.303  INFO 1492 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on MRCE2P65ONVS5U9 with PID 1492 (E:\dengyun\springBootDemo\target\classes started by Administrator in E:\dengyun\springBootDemo)
+2019-12-24 11:16:05.319  INFO 1492 --- [main] com.example.demo.DemoApplication         : The following profiles are active: dev
+2019-12-24 11:16:07.534  WARN 1492 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-12-24 11:16:07.690  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-24 11:16:07.706  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 11:16:07.768  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-12-24 11:16:08.425  INFO 1492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57c78ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 11:16:09.081  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2019-12-24 11:16:09.112  INFO 1492 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9092"]
+2019-12-24 11:16:09.143  INFO 1492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-24 11:16:09.143  INFO 1492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-24 11:16:09.378  INFO 1492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2019-12-24 11:16:09.378  INFO 1492 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3294 ms
+2019-12-24 11:16:09.487  INFO 1492 --- [main] c.e.demo.common.config.DataSourceConfig  : *********初始化数据源配置信息********
+2019-12-24 11:16:10.023  INFO 1492 --- [main] c.e.demo.common.config.RedisConfig       : *********初始化RedisTemplate********
+2019-12-24 11:16:10.046  INFO 1492 --- [main] c.e.d.common.config.RestTemplateConfig   : ******初始化restTemplate******
+2019-12-24 11:16:10.482  INFO 1492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 11:16:11.707  INFO 1492 --- [main] c.e.d.c.listener.WebContextListener      : 
+======================================================================
+
+    欢迎使用 商家PC版后台 - 系统开始运行
+======================================================================
+
+2019-12-24 11:16:11.714  INFO 1492 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9092"]
+2019-12-24 11:16:11.750  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path '/demo'
+2019-12-24 11:16:11.753  INFO 1492 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 8.254 seconds (JVM running for 12.828)
