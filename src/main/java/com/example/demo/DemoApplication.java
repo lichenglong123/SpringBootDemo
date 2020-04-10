@@ -15,6 +15,7 @@ public class DemoApplication {
         ConfigurableApplicationContext context= SpringApplication.run(DemoApplication.class, args);
       //  context.addApplicationListener(new WebContextListener());
        // context.publishEvent(new MyEvent("测试事件."));
+
     }
 
 
