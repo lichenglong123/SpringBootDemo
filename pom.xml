@@ -95,12 +95,6 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.3</version>
         </dependency>
-        <!--spark-->
-        <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.12</artifactId>
-            <version>2.4.3</version>
-        </dependency>
     </dependencies>
 
     <!--引入Spring cloud依赖-->
